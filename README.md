@@ -3,7 +3,9 @@ We deploy MongoDB cluster with Node.js application on docker environment
 
 # install docker and docker-compose and then execute this cmd
 docker-compose up -d
+
 docker ps
+
 docker exec -it mongo1 mongosh
 
 rs.initiate({
